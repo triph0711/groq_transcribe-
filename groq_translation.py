@@ -7,7 +7,7 @@ from groq import Groq
 from pydantic import BaseModel
 
 # Set up the Groq client
-client = Groq(api_key=config("GROQ_API_KEY"))
+client = Groq(api_key=config("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"))
 
 # Model for the translation
 class Translation(BaseModel):
